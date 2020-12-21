@@ -1,0 +1,33 @@
+nav.menu {
+  background-color: #3e3f3a;
+  color: #fff;
+  height: 2rem;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+
+    li {
+      &:hover {
+        background-color: #bb6b03;
+        height: 2rem;
+        transition: all 1s;
+      }
+
+      a {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px;
+        margin: 0 5px;
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+}
